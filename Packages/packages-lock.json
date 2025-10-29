@@ -282,6 +282,23 @@
       },
       "url": "https://packages.unity.com"
     },
+    "dev.yarnspinner.unity": {
+      "version": "3.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "dev.yarnspinner.unity.samples": {
+      "version": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "dev.yarnspinner.unity": "3.0.3",
+        "com.unity.shadergraph": "14.0.0"
+      },
+      "hash": "93a9f32655d3b1d625aafe0ad8ab7be8553b11b7"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,

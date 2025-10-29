@@ -1,0 +1,33 @@
+﻿title: Start
+---
+Welcome to the game.
+This is the first scene.
+Which dialogue would you like?
+
+-> Dialogue1
+    <<jump Dialogue1>>
+-> Dialogue2
+    <<jump Dialogue2>>
+===
+
+
+title: Dialogue1
+---
+This is dialogue1
+<<jump Done>>
+===
+
+
+
+title: Dialogue2
+---
+This is dialogue2
+<<jump Done>>
+===
+
+
+title: Done
+---
+OK let's go to the next scene.
+<< GoToScene 1_intro_scene >>
+===
