@@ -1,8 +1,8 @@
 ﻿title: Start
 ---
-Welcome to the game.
-This is the first scene.
-Which dialogue would you like?
+Jazmine: I have a question.
+Isabel: What is it?
+Jazmine: You said you're from Guatemala, why are we in Arizona?
 
 -> Dialogue1
     <<jump Dialogue1>>
