@@ -17,10 +17,15 @@ public class Trigger_LoadScene : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-    
-            SceneManager.LoadScene(sceneToLoad);
-       
+        GoToScene();
+        
+
     }
+   public void GoToScene()
+    {
+       SceneManager.LoadScene(sceneToLoad);
+    }
+
 
 
 }

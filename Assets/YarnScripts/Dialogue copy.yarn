@@ -1,0 +1,10 @@
+﻿title: Hello
+position: 247,-187
+---
+Would you like to begin?
+->Yes
+    <<jump Scene_4_Dialogue>>
+->No
+    <<jump Dialogue2>>
+
+===
