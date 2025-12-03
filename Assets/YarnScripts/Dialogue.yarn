@@ -14,7 +14,7 @@ position: 4,35
 
 You do want to begin...
 ->I do.
-    <<jump Scene_4_Dialogue>>
+    << GoToScene Scene_4 >>
 
 ===
 

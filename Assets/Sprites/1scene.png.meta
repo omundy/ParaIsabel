@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8e8f407be377e4545a7d31e985d2bfb3
+guid: 610df0bf64fc84998957ddc2aa67c047
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1869325938475913518
-    second: food_background_0
+      213: -8454010840032356499
+    second: 1scene_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: food_background_0
+      name: 1scene_0
       rect:
         serializedVersion: 2
-        x: 298
-        y: 124
-        width: 2695
-        height: 2070
+        x: 0
+        y: 0
+        width: 782
+        height: 518
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2de28bb86f1de06e0800000000000000
-      internalID: -1869325938475913518
+      spriteID: d67d198aee15daa80800000000000000
+      internalID: -8454010840032356499
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      food_background_0: -1869325938475913518
+      1scene_0: -8454010840032356499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
