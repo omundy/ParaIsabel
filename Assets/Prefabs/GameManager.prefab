@@ -66,7 +66,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -194,11 +194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fad207122814ca7be75911603554b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  soundManagerPrefab: {fileID: 9166398354595498330, guid: cf60fcee84fd8408aa80e7154633ad71, type: 3}
-  info: '1. This game manager needs to exist in every scene.
-
-    2. Commit overrides
-    to ensure it acts the same in each scene.'
 --- !u!114 &1018689068111410957
 MonoBehaviour:
   m_ObjectHideFlags: 0
