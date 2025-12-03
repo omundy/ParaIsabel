@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/2scene.png.meta
 guid: adedd2b325f1f4a88a0d3432dbb56982
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3690075844595996100
     second: 2scene_0
+========
+guid: a17d5e35cc8cd4c2ead13d9fea43088d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9039314254267762525
+    second: English_button_0
+>>>>>>>> owen:Assets/Sprites/English_button.PNG.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/2scene.png.meta
       name: 2scene_0
+========
+      name: English_button_0
+>>>>>>>> owen:Assets/Sprites/English_button.PNG.meta
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<<< HEAD:Assets/Sprites/2scene.png.meta
         width: 782
         height: 518
+========
+        width: 1284
+        height: 492
+>>>>>>>> owen:Assets/Sprites/English_button.PNG.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Sprites/2scene.png.meta
       spriteID: c3a2b98f1973accc0800000000000000
       internalID: -3690075844595996100
+========
+      spriteID: d5741c20c68127d70800000000000000
+      internalID: 9039314254267762525
+>>>>>>>> owen:Assets/Sprites/English_button.PNG.meta
       vertices: []
       indices: 
       edges: []
@@ -135,7 +158,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/Sprites/2scene.png.meta
       2scene_0: -3690075844595996100
+========
+      English_button_0: 9039314254267762525
+>>>>>>>> owen:Assets/Sprites/English_button.PNG.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
