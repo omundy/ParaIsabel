@@ -7,28 +7,6 @@ Would you like to begin?
 ->No
     <<jump Dialogue2>>
 
-===
-title: Dialogue2
-position: 4,35
----
-
-You do want to begin...
-->I do.
-    <<jump Scene_4_Dialogue>>
-
-===
-
-title: Scene_4_Dialogue
-position: 120,397
----
-Select which language you prefer
-->English
-    <<jump Scene_4_ENG>>
-->Spanish
-    <<jump Scene_4_SPA>>
-===
-
-
 
 title: Scene_5_Dialogue
 position: 584,1
