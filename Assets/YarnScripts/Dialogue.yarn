@@ -1,14 +1,10 @@
 ﻿title: Scene_2_Dialogue
 ---
 Select a language / Escoge tu idioma #line:0f748fc 
-->English #line:0c4d076 
-    <<GoToScene Scene_3>>
-->Español #line:08bd06d 
-    <<GoToScene Scene_3>>
 
-title: Scene_3_Dialogue_Butterfly #line:0c1608d 
-position: 247,-187 #line:0ce47d2 
---- #line:0ae7230 
+===
+title: Scene_3_Dialogue_Butterfly
+--- 
 Monarchs in Eastern North America have a second home in the Sierra Madre Mountains of Mexico. Monarchs in Western North America overwinter in California. #line:0d95050 
 
 Some fly as far as 3,000 miles to reach their winter home! - U.S. Forest Service #line:0f253d3 
@@ -27,7 +23,6 @@ Isabel: Well you’ve visited there before. I grew up in Puerto Barrios,  a port
 
 ===
 title: Scene_4_Dialogue
-position: 4,35
 ---
 
 Isabel: It was a long while ago, 1984. I was 18 and I had your tio Ever to take care of. Your Mom wasn’t even born yet.  #line:0947b0d 
@@ -38,7 +33,7 @@ Isabel: I was working at a restaurant and living with my Mom and siblings. I am 
 ===
 
 title: Scene_5_Dialogue
-position: 120,397
+
 ---
 
 Isabel: Back then, my boss at the restaurant was named Lydia. She would rarely stop by but when she did, we’d talk about life. #line:01549c4 
@@ -56,7 +51,7 @@ Isabel: She gets paid by people to take them across borders, usually groups of p
 ===
 
 title: Scene_6_Dialogue
-position: 584,1
+
 ---
 
 Isabel: Anyway, at that time, I was making very little at my job and it was hard to provide for Ever. He was my priority and my Mom helped me by watching him when I was at work.  #line:077beb6 
@@ -68,7 +63,7 @@ Isabel: But I just wanted more for our family. I seriously considered what Lydia
 ===
 
 title: Scene_7_Dialogue
-position: 345,348
+
 ---
 
 Isabel: One of the biggest factors in making my final decision was getting told that I’d be able to pay off my debt from moving to the US at a better job I’d find there.  #line:09db2cf 

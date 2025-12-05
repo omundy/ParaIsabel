@@ -205,6 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fad207122814ca7be75911603554b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  LineProvider: {fileID: 0}
 --- !u!114 &1018689068111410957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,7 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b6798449caec4a32a5ad27badb06624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: YarnSpinner.Unity::Yarn.Unity.BuiltinLocalisedLineProvider
-  _textLocaleCode: es
+  _textLocaleCode: en
   _assetLocaleCode: en
   _useFallback: 0
   _fallbackLocaleCode: en
