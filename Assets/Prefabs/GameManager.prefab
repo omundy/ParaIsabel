@@ -47,9 +47,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
   audioSource: {fileID: 1567649679239260503}
   sceneMusicList:
-  - clip: {fileID: 8300000, guid: 61f7bf767628045b7844bbb46b36d4d0, type: 3}
+  - clip: {fileID: 8300000, guid: 9a7e334cee834418198880ace9fb4f73, type: 3}
     startPlaying: Scene_1
-  - clip: {fileID: 8300000, guid: 6512233cb97324010a6fb0498682afac, type: 3}
+  - clip: {fileID: 8300000, guid: b8182103151c64472822f244b53da555, type: 3}
     startPlaying: Scene_3
 --- !u!82 &1567649679239260503
 AudioSource:

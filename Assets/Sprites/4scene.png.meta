@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/4scene.png.meta
 guid: 2e6acaa6cbc3848f983f1248535eacd4
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1565059537914973602
     second: 4scene_0
-========
-guid: 25fc8c753d12043c2b8bf24b66ce5d7a
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7197523422500209929
-    second: Spanish_button_0
->>>>>>>> owen:Assets/Sprites/Spanish_button.PNG.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,22 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/4scene.png.meta
       name: 4scene_0
-========
-      name: Spanish_button_0
->>>>>>>> owen:Assets/Sprites/Spanish_button.PNG.meta
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-<<<<<<<< HEAD:Assets/Sprites/4scene.png.meta
         width: 782
         height: 518
-========
-        width: 1284
-        height: 495
->>>>>>>> owen:Assets/Sprites/Spanish_button.PNG.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,13 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Sprites/4scene.png.meta
       spriteID: e52bd3e64aac74ae0800000000000000
       internalID: -1565059537914973602
-========
-      spriteID: 905cdac2b6db2e360800000000000000
-      internalID: 7197523422500209929
->>>>>>>> owen:Assets/Sprites/Spanish_button.PNG.meta
       vertices: []
       indices: 
       edges: []
@@ -158,11 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<<< HEAD:Assets/Sprites/4scene.png.meta
       4scene_0: -1565059537914973602
-========
-      Spanish_button_0: 7197523422500209929
->>>>>>>> owen:Assets/Sprites/Spanish_button.PNG.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
