@@ -8,7 +8,9 @@
     "./Samples/Yarn Spinner*/*"
   ],
   "localisation": {
-    "es": {}
+    "es": {
+      "strings": "YarnProject_es.csv"
+    }
   },
   "baseLanguage": "en",
   "compilerOptions": {},

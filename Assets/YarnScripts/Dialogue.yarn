@@ -1,27 +1,27 @@
 ﻿title: Scene_2_Dialogue
 ---
-Select a language / Escoge tu idioma
-->English
+Select a language / Escoge tu idioma #line:0f748fc 
+->English #line:0c4d076 
     <<GoToScene Scene_3>>
-->Español
+->Español #line:08bd06d 
     <<GoToScene Scene_3>>
 
-title: Scene_3_Dialogue_Butterfly
-position: 247,-187
----
-Monarchs in Eastern North America have a second home in the Sierra Madre Mountains of Mexico. Monarchs in Western North America overwinter in California.
+title: Scene_3_Dialogue_Butterfly #line:0c1608d 
+position: 247,-187 #line:0ce47d2 
+--- #line:0ae7230 
+Monarchs in Eastern North America have a second home in the Sierra Madre Mountains of Mexico. Monarchs in Western North America overwinter in California. #line:0d95050 
 
-Some fly as far as 3,000 miles to reach their winter home! - U.S. Forest Service
+Some fly as far as 3,000 miles to reach their winter home! - U.S. Forest Service #line:0f253d3 
     <<jump Scene_3_Dialogue_Isabel>>
 
 ===
 
 title: Scene_3_Dialogue_Isabel
 ---
-Jazmine: Ama, I like our house. Was this our house since forever?
-Isabel: No- you know I didn’t always live in Arizona? 
-Jazmine: Where did you live before? Was I there?
-Isabel: Well you’ve visited there before. I grew up in Puerto Barrios,  a port town in Guatemala. I decided to move so far away to support my family. 
+Jazmine: Ama, I like our house. Was this our house since forever? #line:0a07a6c 
+Isabel: No- you know I didn’t always live in Arizona?  #line:0a0068d 
+Jazmine: Where did you live before? Was I there? #line:0e1aaa0 
+Isabel: Well you’ve visited there before. I grew up in Puerto Barrios,  a port town in Guatemala. I decided to move so far away to support my family.  #line:08dbc11 
 
     <<GoToScene  Scene_4>>
 
@@ -30,8 +30,8 @@ title: Scene_4_Dialogue
 position: 4,35
 ---
 
-Isabel: It was a long while ago, 1984. I was 18 and I had your tio Ever to take care of. Your Mom wasn’t even born yet. 
-Isabel: I was working at a restaurant and living with my Mom and siblings. I am the second youngest child of my family. Barrios is where all of my family grew up and nobody had ever left. 
+Isabel: It was a long while ago, 1984. I was 18 and I had your tio Ever to take care of. Your Mom wasn’t even born yet.  #line:0947b0d 
+Isabel: I was working at a restaurant and living with my Mom and siblings. I am the second youngest child of my family. Barrios is where all of my family grew up and nobody had ever left.  #line:040a352 
 
     <<GoToScene Scene_5>>
 
@@ -41,15 +41,15 @@ title: Scene_5_Dialogue
 position: 120,397
 ---
 
-Isabel: Back then, my boss at the restaurant was named Lydia. She would rarely stop by but when she did, we’d talk about life.
+Isabel: Back then, my boss at the restaurant was named Lydia. She would rarely stop by but when she did, we’d talk about life. #line:01549c4 
 
-Isabel: She told me that I needed to think about a future outside of Guatemala if I want a better life.
+Isabel: She told me that I needed to think about a future outside of Guatemala if I want a better life. #line:059c480 
 
-Isabel: The way that Lydia pushed me to change my future was with her sister Connie. She was a coyote. Do you know what that means?
+Isabel: The way that Lydia pushed me to change my future was with her sister Connie. She was a coyote. Do you know what that means? #line:03d8f1a 
 
-Jazmine: …No 
+Jazmine: …No  #line:0b784e8 
 
-Isabel: She gets paid by people to take them across borders, usually groups of people.
+Isabel: She gets paid by people to take them across borders, usually groups of people. #line:091c788 
 
     <<GoToScene  Scene_6>>
 
@@ -59,9 +59,9 @@ title: Scene_6_Dialogue
 position: 584,1
 ---
 
-Isabel: Anyway, at that time, I was making very little at my job and it was hard to provide for Ever. He was my priority and my Mom helped me by watching him when I was at work. 
+Isabel: Anyway, at that time, I was making very little at my job and it was hard to provide for Ever. He was my priority and my Mom helped me by watching him when I was at work.  #line:077beb6 
 
-Isabel: But I just wanted more for our family. I seriously considered what Lydia was telling me about the world outside of Guatemala. Although it wasn’t an easy decision to make either. 
+Isabel: But I just wanted more for our family. I seriously considered what Lydia was telling me about the world outside of Guatemala. Although it wasn’t an easy decision to make either.  #line:06a13cd 
 
     <<GoToScene Scene_7>>
 
@@ -71,13 +71,13 @@ title: Scene_7_Dialogue
 position: 345,348
 ---
 
-Isabel: One of the biggest factors in making my final decision was getting told that I’d be able to pay off my debt from moving to the US at a better job I’d find there. 
+Isabel: One of the biggest factors in making my final decision was getting told that I’d be able to pay off my debt from moving to the US at a better job I’d find there.  #line:09db2cf 
 
-Isabel: This means I had to get my Guatemalan I.D. so I could get through the border to Mexico. Then selling off valuables like jewelry to have pocketmoney for the long trip ahead. 
+Isabel: This means I had to get my Guatemalan I.D. so I could get through the border to Mexico. Then selling off valuables like jewelry to have pocketmoney for the long trip ahead.  #line:0663159 
 
-Isabel: And of course, I would have to trust that my Mother would take care of Ever while I’m away, since I didn’t know when or how I would come back.   
+Isabel: And of course, I would have to trust that my Mother would take care of Ever while I’m away, since I didn’t know when or how I would come back.    #line:04cd29f 
 
-Isabel: My plan was to always send money back home to Guatemala and support my family financially. I was the first in my family to ever attempt such a journey, and I knew nobody in the U.S. 
+Isabel: My plan was to always send money back home to Guatemala and support my family financially. I was the first in my family to ever attempt such a journey, and I knew nobody in the U.S.  #line:0adcf73 
 
     <<GoToScene  Scene_8>>
 
@@ -86,11 +86,11 @@ Isabel: My plan was to always send money back home to Guatemala and support my f
 title: Scene_8_Dialogue
 ---
 
-Isabel: So, I said my final goodbyes to my sisters and brothers before I headed to the bus stop where my Mother, Ever, and I would meet Connie. 
+Isabel: So, I said my final goodbyes to my sisters and brothers before I headed to the bus stop where my Mother, Ever, and I would meet Connie.  #line:01e02ba 
 
-Isabel: Seeing My Mom and Ever there to see me off made me feel like my heart was going to be left there.
+Isabel: Seeing My Mom and Ever there to see me off made me feel like my heart was going to be left there. #line:0f514c8 
 
-Isabel: Connie told me that she’d cover my debts and that I wouldn’t have to worry about a thing, since I was friends with her sister. I had to attempt it right? 
+Isabel: Connie told me that she’d cover my debts and that I wouldn’t have to worry about a thing, since I was friends with her sister. I had to attempt it right?  #line:01c08ba 
 
     <<GoToScene  Scene_9_a>>
 
@@ -98,7 +98,7 @@ Isabel: Connie told me that she’d cover my debts and that I wouldn’t have to
 
 title: Scene_9_a_Dialogue
 ---
-Isabel: It was a grueling journey to make it from Puerto Barrios through Mexico. 
+Isabel: It was a grueling journey to make it from Puerto Barrios through Mexico.  #line:083f3a7 
 
     <<GoToScene  Scene_9_b>>
 
@@ -107,9 +107,9 @@ Isabel: It was a grueling journey to make it from Puerto Barrios through Mexico.
 title:Scene_9_b_Dialogue
 ---
 
-Isabel: The group of about 20 of us went through 20 long days and nights. We would stay in random places as we made it across the entirety of Mexico. . 
+Isabel: The group of about 20 of us went through 20 long days and nights. We would stay in random places as we made it across the entirety of Mexico. .  #line:0f809bb 
 
-Isabel: Connie’s job as a coyote meant that she had arrangements with people in different parts of Guatemala and Mexico to let us spend the night in places.
+Isabel: Connie’s job as a coyote meant that she had arrangements with people in different parts of Guatemala and Mexico to let us spend the night in places. #line:05dc761 
 
 <<GoToScene  Scene_10>>
 
@@ -118,13 +118,13 @@ Isabel: Connie’s job as a coyote meant that she had arrangements with people i
 title: Scene_10_Dialogue
 ---
 
-Isabel: After what seemed like forever, we made it to Tijuana, Mexico. There we had to make the hour-long walk to San Ysidro. 
+Isabel: After what seemed like forever, we made it to Tijuana, Mexico. There we had to make the hour-long walk to San Ysidro.  #line:0795af6 
 
-Isabel: There, we walked and then were put into the trunk of a car- breathing through a straw so we weren’t caught while we were transported to Los Angeles. 
+Isabel: There, we walked and then were put into the trunk of a car- breathing through a straw so we weren’t caught while we were transported to Los Angeles.  #line:0f6c5b5 
 
-Isabel: I remember how stuffy and hot it was, and how I couldn’t keep my mind off of how strange all of this was to me.
+Isabel: I remember how stuffy and hot it was, and how I couldn’t keep my mind off of how strange all of this was to me. #line:01c1d22 
 
-Isabel: Would I really get all that I was promised out of the U.S. after going through all of this? 
+Isabel: Would I really get all that I was promised out of the U.S. after going through all of this?  #line:05c59f6 
 
     <<GoToScene  Scene_11>>
 
@@ -133,11 +133,11 @@ Isabel: Would I really get all that I was promised out of the U.S. after going t
 title: Scene_11_Dialogue
 ---
 
-Isabel: Well, once we made it through that part I thought it would be pretty easy to handle the next part. For the second car ride, I was driven by Don Raymundo towards Los Angeles. 
+Isabel: Well, once we made it through that part I thought it would be pretty easy to handle the next part. For the second car ride, I was driven by Don Raymundo towards Los Angeles.  #line:058a62c 
 
-Isabel: I had been told that there was lots of work there and you’d make more than you did back in Guatemala that’s for sure
+Isabel: I had been told that there was lots of work there and you’d make more than you did back in Guatemala that’s for sure #line:03e3a4c 
 
-Isabel: But what I wasn’t expecting was the way Connie would speak to me again. 
+Isabel: But what I wasn’t expecting was the way Connie would speak to me again.  #line:0793960 
 
 
 <<GoToScene  Scene_12>>
@@ -146,13 +146,13 @@ Isabel: But what I wasn’t expecting was the way Connie would speak to me again
 
 title: Scene_12_Dialogue
 ---
-Isabel: She stopped me and asked me where I thought I’d be going with all this debt on me. 
+Isabel: She stopped me and asked me where I thought I’d be going with all this debt on me.  #line:0247979 
 
-Isabel: She ignored her promise to me of letting me work it off and instead told me something that made me sick. 
+Isabel: She ignored her promise to me of letting me work it off and instead told me something that made me sick.  #line:0a5fe97 
 
-Isabel: “There’s this guy who said he’ll pay off your $500 debt, you just have to go with him.” 
+Isabel: “There’s this guy who said he’ll pay off your $500 debt, you just have to go with him.”  #line:0574c79 
 
-Isabel: I knew I had come too far to give up on this journey. I tried to reach out to my friends who I’d play with in the rivers in Guatemala, and they told me they just couldn’t help me out. That their families would be upset with them.
+Isabel: I knew I had come too far to give up on this journey. I tried to reach out to my friends who I’d play with in the rivers in Guatemala, and they told me they just couldn’t help me out. That their families would be upset with them. #line:022a660 
 
 
     <<GoToScene  Scene_13>>
@@ -162,11 +162,11 @@ Isabel: I knew I had come too far to give up on this journey. I tried to reach o
 title: Scene_13_Dialogue
 ---
 
-Isabel: Connie’s brother overheard me explaining this to Connie and as she refused to change her mind, he stepped in. He called her out on the crazy thing she was pushing me to do. 
+Isabel: Connie’s brother overheard me explaining this to Connie and as she refused to change her mind, he stepped in. He called her out on the crazy thing she was pushing me to do.  #line:05d124e 
 
-Isabel: He asked Connie how she could have so much evil in her heart to sell off an 18 year old girl over $500. 
+Isabel: He asked Connie how she could have so much evil in her heart to sell off an 18 year old girl over $500.  #line:0ce82dc 
 
-Isabel: He pawned his car to be able to pay her off. He allowed me to have a chance at being independent in the U.S. 
+Isabel: He pawned his car to be able to pay her off. He allowed me to have a chance at being independent in the U.S.  #line:005e2d8 
 
 
     <<GoToScene  Scene_14>>
@@ -176,11 +176,11 @@ Isabel: He pawned his car to be able to pay her off. He allowed me to have a cha
 title: Scene_14_Dialogue
 ---
 
-Isabel: I will always be grateful for the first job I got in California. I lived and worked with a family in Laguna Beach, cleaning their house and taking care of their kid. 
+Isabel: I will always be grateful for the first job I got in California. I lived and worked with a family in Laguna Beach, cleaning their house and taking care of their kid.  #line:0e7446d 
 
-Isabel: The kid was named Peter and he had adorable blue eyes. The father was a banker and wore a suit and tie to work every morning. The mother was a school teacher and she was jealous of how much Peter liked me haha.
+Isabel: The kid was named Peter and he had adorable blue eyes. The father was a banker and wore a suit and tie to work every morning. The mother was a school teacher and she was jealous of how much Peter liked me haha. #line:04e65c9 
 
-Isabel: They were such a kind family to me, I think they might’ve pitied me. They even took me to the hospital in L.A. whenever I gave birth to your Mom. 
+Isabel: They were such a kind family to me, I think they might’ve pitied me. They even took me to the hospital in L.A. whenever I gave birth to your Mom.  #line:08e33c9 
 
     <<GoToScene  Scene_15>>
 
@@ -189,11 +189,11 @@ Isabel: They were such a kind family to me, I think they might’ve pitied me. T
 title: Scene_15_Dialogue
 ---
 
-Isabel: Without all of the bad things I had to endure, I wouldn’t have been able to provide for my family in the same way. 
+Isabel: Without all of the bad things I had to endure, I wouldn’t have been able to provide for my family in the same way.  #line:0f0e6cc 
 
-Isabel: I feel proud that I pushed my family ahead with my sacrifices, and all of my children have grown here in the U.S. 
+Isabel: I feel proud that I pushed my family ahead with my sacrifices, and all of my children have grown here in the U.S.  #line:0eaeea7 
 
-Isabel: After all, I’ve got you too. <3
+Isabel: After all, I’ve got you too. <3 #line:0473036 
 
     <<GoToScene  Scene_16>>
 
@@ -202,9 +202,9 @@ Isabel: After all, I’ve got you too. <3
 title: Scene_16_Dialogue
 ---
 
-Thank you for reading through this story. I wouldn’t be anything without my Grandma's hard work and I got the beautiful opportunity through this game to interview her about her past in detail. 
+Thank you for reading through this story. I wouldn’t be anything without my Grandma's hard work and I got the beautiful opportunity through this game to interview her about her past in detail.  #line:019939d 
 
-Although this narrative is short, I am grateful I got to go through the process of creating and sharing it. 
+Although this narrative is short, I am grateful I got to go through the process of creating and sharing it.  #line:02d0804 
 
 <<GoToScene  Scene_1>>
 
