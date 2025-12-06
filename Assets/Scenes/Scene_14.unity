@@ -149,7 +149,7 @@ Transform:
   m_LocalScale: {x: 1.6501828, y: 1.5418394, z: 1.7503}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 977086519}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &814289742
 SpriteRenderer:
@@ -209,38 +209,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &977086518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 977086519}
-  m_Layer: 0
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &977086519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977086518}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 814289741}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1264777816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -287,10 +255,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017213384398455240, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1567649679239260503, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: Mute
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1662963424889626740, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
@@ -348,38 +312,6 @@ PrefabInstance:
     - target: {fileID: 3063945285865708456, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_Name
       value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2660194c570704d32ab98b4d3f6e121a, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: c5e8cbe439e7d408e9451ec3aaea208d, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: c5e8cbe439e7d408e9451ec3aaea208d, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[0].startPlaying
-      value: Scene_14
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[1].startPlaying
-      value: Scene_9_a
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[2].startPlaying
-      value: Scene_9_a
-      objectReference: {fileID: 0}
-    - target: {fileID: 5569651493944125427, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: startNode
-      value: Scene_14_Dialogue
       objectReference: {fileID: 0}
     - target: {fileID: 5861201186016873020, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_AnchorMax.y
@@ -555,6 +487,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1711631210}
-  - {fileID: 977086519}
   - {fileID: 1264777816}
+  - {fileID: 1711631210}
+  - {fileID: 814289741}

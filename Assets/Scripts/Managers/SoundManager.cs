@@ -26,7 +26,7 @@ public class SoundManager : MonoBehaviour
         }
         foreach (SceneMusic sceneMusic in sceneMusicList)
         {
-            Debug.Log($"SetMusic() sceneMusic.startPlaying={sceneMusic.startPlaying}, scene.name={scene.name}");
+            // Debug.Log($"SetMusic() sceneMusic.startPlaying={sceneMusic.startPlaying}, scene.name={scene.name}");
             if (sceneMusic.startPlaying == scene.name)
             {
                 if (audioSource.isPlaying)

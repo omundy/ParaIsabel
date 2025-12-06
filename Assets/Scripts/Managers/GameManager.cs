@@ -5,8 +5,17 @@ using Yarn.Unity;
 
 public class GameManager : MonoBehaviour
 {
+    /////////////////////////////////////////////////////
+    //////////////////// SINGLETON //////////////////////
+    /////////////////////////////////////////////////////
     // https://gamedevbeginner.com/singletons-in-unity-the-right-way/
+
+    // *** SINGLETON => make instance accessible outside of class
     public static GameManager Instance { get; private set; }
+
+    // *** SINGLETON => only create once
+    public bool singletonCreated = false;
+
     public BuiltinLocalisedLineProvider LineProvider;
     public string localCode = "en";
 
@@ -16,25 +25,41 @@ public class GameManager : MonoBehaviour
     public int currentSceneIndex;
     public int nextSceneIndex;
 
-    void Awake()
+    void CreateSingleton()
     {
         // *** SINGLETON => If instance exists ...
+        if (Instance != null && Instance.singletonCreated)
+        {
+            while (transform.childCount > 0)
+            {
+                DestroyImmediate(transform.GetChild(0).gameObject);
+            }
+            // *** SINGLETON => Then delete the object and exit
+            DestroyImmediate(this.gameObject);
+            return;
+        }
         if (Instance != null && Instance != this)
+        {
             Destroy(this);
-        else
-            Instance = this;
-        DontDestroyOnLoad(gameObject);
+            return;
+        }
+
+        // *** SINGLETON => Only reach this point on the first load...
+        singletonCreated = true;
+        Instance = this;
+        DontDestroyOnLoad(this.gameObject);
+
+        Debug.Log($"*** GameManager (Singleton) created ***");
     }
 
-    void Start()
+    private void Awake()
     {
-        SceneManager.activeSceneChanged += SceneChanged;
+        CreateSingleton();
+        UpdateSceneInfo();
     }
 
-    void SceneChanged(Scene _prevScene, Scene _newScene)
-    {
-        // 
-    }
+    void Start() => SceneManager.activeSceneChanged += SceneChanged;
+
 
 
     public void OnClickEnglishButton() => ChangeLanguage("en");
@@ -48,6 +73,8 @@ public class GameManager : MonoBehaviour
 
 
 
+
+    void SceneChanged(Scene _prevScene, Scene _newScene) => UpdateSceneInfo();
 
     void UpdateSceneInfo()
     {

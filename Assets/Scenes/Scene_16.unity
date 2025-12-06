@@ -119,38 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &307637985
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 307637986}
-  m_Layer: 0
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &307637986
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307637985}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.29022, y: -0.87029, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1538939456}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1001244082
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,10 +360,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 5569651493944125427, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: startNode
-      value: Scene_16_Dialogue
-      objectReference: {fileID: 0}
     - target: {fileID: 5861201186016873020, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -455,11 +419,11 @@ Transform:
   m_GameObject: {fileID: 1538939455}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.32, y: 1.76, z: 0}
+  m_LocalPosition: {x: 0.02978, y: 0.88971, z: 0}
   m_LocalScale: {x: 1.5905684, y: 1.5905684, z: 1.5905684}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 307637986}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1538939457
 SpriteRenderer:
@@ -523,6 +487,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1001244085}
-  - {fileID: 307637986}
   - {fileID: 1122244859}
+  - {fileID: 1001244085}
+  - {fileID: 1538939456}

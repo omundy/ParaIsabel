@@ -579,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639536578}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: Collage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -940,10 +940,6 @@ PrefabInstance:
     - target: {fileID: 3063945285865708456, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_Name
       value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 5569651493944125427, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: startNode
-      value: Scene_15_Dialogue
       objectReference: {fileID: 0}
     - target: {fileID: 5861201186016873020, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1342,6 +1338,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1814885824}
   - {fileID: 1725496279}
   - {fileID: 1639536578}
-  - {fileID: 1814885824}
