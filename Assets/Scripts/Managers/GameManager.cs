@@ -16,8 +16,10 @@ public class GameManager : MonoBehaviour
     // *** SINGLETON => only create once
     public bool singletonCreated = false;
 
+    public DialogueRunner dialogueRunner;
     public BuiltinLocalisedLineProvider LineProvider;
     public string localCode = "en";
+
 
     [Header("Scenes")]
 
@@ -62,6 +64,19 @@ public class GameManager : MonoBehaviour
 
 
 
+    void OnEnable()
+    {
+        EventManager.StartListening("ChangeToEnglish", OnClickEnglishButton);
+        EventManager.StartListening("ChangeToSpanish", OnClickSpanishButton);
+    }
+    void OnDisable()
+    {
+        EventManager.StopListening("ChangeToEnglish", OnClickEnglishButton);
+        EventManager.StopListening("ChangeToSpanish", OnClickSpanishButton);
+    }
+
+
+
     public void OnClickEnglishButton() => ChangeLanguage("en");
     public void OnClickSpanishButton() => ChangeLanguage("es");
     public void ChangeLanguage(string _lang)
@@ -78,6 +93,8 @@ public class GameManager : MonoBehaviour
 
     void UpdateSceneInfo()
     {
+        dialogueRunner.Stop();
+
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         prevSceneIndex = Mathf.Clamp(currentSceneIndex - 1, 0, SceneManager.sceneCountInBuildSettings);
         nextSceneIndex = Mathf.Clamp(currentSceneIndex + 1, 0, SceneManager.sceneCountInBuildSettings);

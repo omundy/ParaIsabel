@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 54730568}
   - component: {fileID: 54730567}
   - component: {fileID: 54730566}
+  - component: {fileID: 54730569}
   - component: {fileID: 54730565}
   m_Layer: 5
   m_Name: SPA_button
@@ -217,9 +218,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1165723106}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: OnClickSpanishButton
+      - m_Target: {fileID: 54730569}
+        m_TargetAssemblyTypeName: Trigger_Event, Assembly-CSharp
+        m_MethodName: Trigger
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -279,6 +280,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54730563}
   m_CullTransparentMesh: 1
+--- !u!114 &54730569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54730563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480d76a838e22499c8438646eeec1350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Trigger_Event
+  eventName: ChangeToSpanish
 --- !u!1 &639224661
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +361,7 @@ Canvas:
   m_GameObject: {fileID: 639224661}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 909604880}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -882,17 +896,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
---- !u!114 &1165723106 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 379021627860081266, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-  m_PrefabInstance: {fileID: 1165723105}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33fad207122814ca7be75911603554b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!1 &1861593923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,6 +1044,7 @@ GameObject:
   - component: {fileID: 2044763771}
   - component: {fileID: 2044763770}
   - component: {fileID: 2044763769}
+  - component: {fileID: 2044763772}
   - component: {fileID: 2044763768}
   m_Layer: 5
   m_Name: ENG_button
@@ -1127,9 +1131,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1165723106}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: OnClickEnglishButton
+      - m_Target: {fileID: 2044763772}
+        m_TargetAssemblyTypeName: Trigger_Event, Assembly-CSharp
+        m_MethodName: Trigger
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1189,6 +1193,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044763766}
   m_CullTransparentMesh: 1
+--- !u!114 &2044763772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044763766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480d76a838e22499c8438646eeec1350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Trigger_Event
+  eventName: ChangeToEnglish
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

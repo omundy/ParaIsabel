@@ -611,6 +611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fad207122814ca7be75911603554b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  singletonCreated: 0
+  dialogueRunner: {fileID: 5569651493944125427}
   LineProvider: {fileID: 8542257495677404448}
   localCode: en
   prevSceneIndex: 0
@@ -1685,6 +1687,17 @@ MonoBehaviour:
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
   m_ScrollDeltaPerTick: 6
+--- !u!114 &5569651493944125427 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
+  m_PrefabInstance: {fileID: 4474841832020361025}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544256036075548558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5821968694822575600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7985477256237130417, guid: 52571f68872914e24837210513edea1d, type: 3}

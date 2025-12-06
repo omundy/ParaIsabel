@@ -35,6 +35,13 @@ public class PlayDialogueOnEvent : MonoBehaviour
         // if (nodeToPlay == "")
         //     Debug.LogError("Add a node name from your Yarn Script");
     }
+
+    void Awake()
+    {
+        if (dialogueRunner == null)
+            dialogueRunner = GameObject.Find("GameManager").GetComponentInChildren<DialogueRunner>();
+    }
+
     void OnEnable() => PlayDialogue(OnEvent.Enable);
     void Start() => PlayDialogue(OnEvent.Start);
 
