@@ -8,7 +8,7 @@ title: Scene_3_Dialogue_Butterfly
 Monarchs in Eastern North America have a second home in the Sierra Madre Mountains of Mexico. Monarchs in Western North America overwinter in California. #line:0d95050 
 
 Some fly as far as 3,000 miles to reach their winter home! - U.S. Forest Service #line:0f253d3 
-    <<jump Scene_3_Dialogue_Isabel>>
+    
 
 ===
 

@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     void SceneChanged(Scene A0, Scene A1)
     {
-        LineProvider.LocaleCode="es";
+        // LineProvider.LocaleCode="es";
 
     }
 
