@@ -836,6 +836,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7cbc364f52b924c70a8c4a378e002abb, type: 3}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: fef1ce23101fb43649dea195a9681bc1, type: 3}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[6].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2660194c570704d32ab98b4d3f6e121a, type: 3}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[7].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2660194c570704d32ab98b4d3f6e121a, type: 3}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[4].startPlaying
+      value: Scene_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[5].startPlaying
+      value: Scene_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[6].startPlaying
+      value: Scene_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[7].startPlaying
+      value: Scene_14
+      objectReference: {fileID: 0}
     - target: {fileID: 5861201186016873020, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -874,7 +910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9023539163984970319, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

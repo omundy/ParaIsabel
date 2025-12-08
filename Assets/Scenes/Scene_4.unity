@@ -313,6 +313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
+      propertyPath: sceneMusicList.Array.data[3].startPlaying
+      value: Scene_8
+      objectReference: {fileID: 0}
     - target: {fileID: 5861201186016873020, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

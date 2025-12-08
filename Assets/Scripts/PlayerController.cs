@@ -1,5 +1,4 @@
 using System;
-using UnityEditor.EditorTools;
 using UnityEngine;
 using UnityEngine.InputSystem; // NEW INPUT SYSTEM
 
@@ -73,11 +72,11 @@ public class PlayerController : MonoBehaviour
         if (animator == null) GetComponent<Animator>();
         if (groundCheck == null) groundCheck = transform.Find("GroundCheck").gameObject.transform;
 
-        if (!groundCheck)
-        {
-            Debug.LogError("GroundCheck required");
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
+        // if (!groundCheck)
+        // {
+        //     Debug.LogError("GroundCheck required");
+        //     UnityEditor.EditorApplication.isPlaying = false;
+        // }
     }
 
     void Start()
