@@ -381,7 +381,7 @@ MonoBehaviour:
   playerInput: {x: 0, y: 0}
   jumpPress: 0
   jumpHold: 0
-  facingRight: 0
+  facingRight: 1
   isGrounded: 0
   velocity: {x: 0, y: 0, z: 0}
   groundLayer:
@@ -444,7 +444,7 @@ SpriteRenderer:
   m_SortingOrder: 9
   m_Sprite: {fileID: -3368846606704675111, guid: f10de9763d6564f7b851b03de6141275, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 6.12, y: 11.99}

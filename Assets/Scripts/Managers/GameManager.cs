@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public DialogueRunner dialogueRunner;
     public BuiltinLocalisedLineProvider LineProvider;
     public string localCode = "en";
+    public SceneInfo sceneInfo;
 
 
     [Header("Scenes")]
@@ -89,7 +90,18 @@ public class GameManager : MonoBehaviour
 
 
 
-    void SceneChanged(Scene _prevScene, Scene _newScene) => UpdateSceneInfo();
+    void SceneChanged(Scene _prevScene, Scene _newScene)
+    {
+        UpdateSceneInfo();
+
+        GameObject sceneInfoGo = GameObject.Find("SceneInfo");
+        if (sceneInfo != null)
+        {
+            sceneInfo = sceneInfoGo.GetComponent<SceneInfo>();
+            if (sceneInfo.startDialogueNode != "")
+                dialogueRunner.StartDialogue(sceneInfo.startDialogueNode);
+        }
+    }
 
     void UpdateSceneInfo()
     {
@@ -98,6 +110,7 @@ public class GameManager : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         prevSceneIndex = Mathf.Clamp(currentSceneIndex - 1, 0, SceneManager.sceneCountInBuildSettings);
         nextSceneIndex = Mathf.Clamp(currentSceneIndex + 1, 0, SceneManager.sceneCountInBuildSettings);
+
     }
 
     public void OnClickPrevScene() => GoToScene(currentSceneIndex - 1);
