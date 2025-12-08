@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 1107947725}
   - component: {fileID: 1107947724}
   - component: {fileID: 1107947723}
+  - component: {fileID: 1107947727}
   m_Layer: 5
   m_Name: Start_Button
   m_TagString: Untagged
@@ -246,8 +247,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.897}
   m_AnchorMin: {x: 0.49, y: 0.09}
   m_AnchorMax: {x: 0.51, y: 0.12}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 8.6459, y: 89.9177}
+  m_SizeDelta: {x: 2.1124, y: -16.2877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107947723
 MonoBehaviour:
@@ -261,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c017985ca0e984bc188b74af8dee0887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Trigger_LoadScene
-  boxCollider2D: {fileID: 0}
+  boxCollider2D: {fileID: 1107947727}
   sceneToLoad: Scene_2
 --- !u!114 &1107947724
 MonoBehaviour:
@@ -357,6 +358,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107947721}
   m_CullTransparentMesh: 1
+--- !u!61 &1107947727
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107947721}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1111843135
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,42 +883,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[4].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 7cbc364f52b924c70a8c4a378e002abb, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[5].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: fef1ce23101fb43649dea195a9681bc1, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[6].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2660194c570704d32ab98b4d3f6e121a, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[7].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2660194c570704d32ab98b4d3f6e121a, type: 3}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[4].startPlaying
-      value: Scene_10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[5].startPlaying
-      value: Scene_11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[6].startPlaying
-      value: Scene_14
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651772524558289516, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: sceneMusicList.Array.data[7].startPlaying
-      value: Scene_14
-      objectReference: {fileID: 0}
     - target: {fileID: 5861201186016873020, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -899,18 +910,6 @@ PrefabInstance:
     - target: {fileID: 5861201186591778383, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7181917400549298823, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8201217942650651659, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9023539163984970319, guid: da47d8c2d4db44f7c8438efa689f2a99, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
