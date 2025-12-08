@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Yarn.Unity;
@@ -19,7 +20,6 @@ public class GameManager : MonoBehaviour
     public DialogueRunner dialogueRunner;
     public BuiltinLocalisedLineProvider LineProvider;
     public string localCode = "en";
-    public SceneInfo sceneInfo;
 
 
     [Header("Scenes")]
@@ -27,6 +27,16 @@ public class GameManager : MonoBehaviour
     public int prevSceneIndex;
     public int currentSceneIndex;
     public int nextSceneIndex;
+
+
+
+    [Header("Current Scene")]
+
+    public GameObject sceneInfo;
+    public SceneInfo sceneInfoScript;
+
+
+
 
     void CreateSingleton()
     {
@@ -58,10 +68,15 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         CreateSingleton();
-        UpdateSceneInfo();
     }
 
-    void Start() => SceneManager.activeSceneChanged += SceneChanged;
+    void Start()
+    {
+        SceneManager.activeSceneChanged += SceneChanged;
+
+        UpdateSceneInfo();
+        StartCoroutine(CheckForDialogueAfterSceneLoad());
+    }
 
 
 
@@ -93,13 +108,24 @@ public class GameManager : MonoBehaviour
     void SceneChanged(Scene _prevScene, Scene _newScene)
     {
         UpdateSceneInfo();
+        StartCoroutine(CheckForDialogueAfterSceneLoad());
+    }
 
-        GameObject sceneInfoGo = GameObject.Find("SceneInfo");
+    IEnumerator CheckForDialogueAfterSceneLoad()
+    {
+        yield return null; // Wait one frame
+        sceneInfo = GameObject.Find("SceneInfo");
         if (sceneInfo != null)
         {
-            sceneInfo = sceneInfoGo.GetComponent<SceneInfo>();
-            if (sceneInfo.startDialogueNode != "")
-                dialogueRunner.StartDialogue(sceneInfo.startDialogueNode);
+            sceneInfoScript = sceneInfo.GetComponent<SceneInfo>();
+            if (sceneInfoScript.startDialogueNode != "")
+                dialogueRunner.StartDialogue(sceneInfoScript.startDialogueNode);
+            else
+                Debug.Log("No SceneInfo script");
+        }
+        else
+        {
+            Debug.Log("No SceneInfo GameObject");
         }
     }
 
@@ -110,7 +136,6 @@ public class GameManager : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         prevSceneIndex = Mathf.Clamp(currentSceneIndex - 1, 0, SceneManager.sceneCountInBuildSettings);
         nextSceneIndex = Mathf.Clamp(currentSceneIndex + 1, 0, SceneManager.sceneCountInBuildSettings);
-
     }
 
     public void OnClickPrevScene() => GoToScene(currentSceneIndex - 1);
