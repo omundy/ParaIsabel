@@ -8,6 +8,11 @@ public class SoundManager : MonoBehaviour
     public AudioSource audioSource;
     public List<SceneMusic> sceneMusicList;
 
+    // Let other scripts find this with Services.Get<SoundManager>()
+    void OnEnable() => Services.Register(this);
+
+    void OnDisable() => Services.Unregister(this);
+
     void Start()
     {
         SetMusic();

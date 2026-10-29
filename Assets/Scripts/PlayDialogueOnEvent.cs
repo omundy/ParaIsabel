@@ -39,7 +39,7 @@ public class PlayDialogueOnEvent : MonoBehaviour
     void Awake()
     {
         if (dialogueRunner == null)
-            dialogueRunner = GameObject.Find("GameManager").GetComponentInChildren<DialogueRunner>();
+            dialogueRunner = Services.Get<DialogueManager>().dialogueRunner;
     }
 
     void OnEnable() => PlayDialogue(OnEvent.Enable);
