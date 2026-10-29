@@ -54,7 +54,7 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: 9a7e334cee834418198880ace9fb4f73, type: 3}
     startPlaying: Scene_4
   - clip: {fileID: 8300000, guid: c5e8cbe439e7d408e9451ec3aaea208d, type: 3}
-    startPlaying: Scene_9
+    startPlaying: Scene_8
   - clip: {fileID: 8300000, guid: 7cbc364f52b924c70a8c4a378e002abb, type: 3}
     startPlaying: Scene_10
   - clip: {fileID: 8300000, guid: fef1ce23101fb43649dea195a9681bc1, type: 3}
@@ -618,6 +618,8 @@ MonoBehaviour:
   prevSceneIndex: 0
   currentSceneIndex: 0
   nextSceneIndex: 0
+  sceneInfo: {fileID: 0}
+  sceneInfoScript: {fileID: 0}
 --- !u!114 &1018689068111410957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1400,7 +1402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7892890607183444155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1428,7 +1430,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9023539163984970319}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
